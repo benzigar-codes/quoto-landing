@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Quoto - Beautiful Quote Generator Landing Page
+
+![Quoto Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWIydGsyeDhxZ2FocmplZzh1d210N3NmYW1laTk4cXV5bzlldzQxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcFts0peBh4OmUxlfH/giphy.gif)
+s
+Welcome to the landing page repository for Quoto - Beautiful Quote Generator!
+
+## Table of Contents
+
+- [Quoto - Beautiful Quote Generator Landing Page](#quoto---beautiful-quote-generator-landing-page)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Demo](#demo)
+  - [Getting Started](#getting-started)
+  - [Contributing](#contributing)
+
+## Introduction
+
+This repository contains the landing page for Quoto - Beautiful Quote Generator. Quoto is an amazing quote generation application that lets you create stunning quotes from templates and share them with your audience. This landing page provides a glimpse of the app's features and a way to download it from the Google Play Store.
+
+## Demo
+
+Check out the live landing page for Quoto: [Quoto Landing Page](https://quoto.24code.in).
 
 ## Getting Started
 
-First, run the development server:
+To get started with Quoto, you can download the app from the Google Play Store:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[![Download on Google Play Store](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.tfcode.quoto)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+We welcome contributions to the Quoto project! If you'd like to contribute to the app's development, please follow these steps:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Fork the main Quoto repository at [benzigar-codes/quoto](https://github.com/benzigar-codes/quoto).
+2. Clone your forked repository to your local machine.
+3. Make your changes and test them thoroughly.
+4. Create a pull request with a clear description of your changes.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or encounter any issues while using the landing page or the Quoto app itself, please [open an issue on GitHub](https://github.com/benzigar-codes/quoto/issues).
