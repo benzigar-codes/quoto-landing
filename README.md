@@ -1,7 +1,7 @@
 # Quoto - Beautiful Quote Generator Landing Page
 
 ![Quoto Banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWIydGsyeDhxZ2FocmplZzh1d210N3NmYW1laTk4cXV5bzlldzQxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcFts0peBh4OmUxlfH/giphy.gif)
-s
+<br/>
 Welcome to the landing page repository for Quoto - Beautiful Quote Generator!
 
 ## Table of Contents
