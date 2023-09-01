@@ -80,7 +80,7 @@ export default function Home() {
                 style={{
                   aspectRatio: 1240 / 2772,
                 }}
-                className="bg-black mx-5 h-[500px] rounded-md"
+                className="bg-black mx-2 lg:mx-5 h-[300px] lg:h-[500px] rounded-md"
                 src={each}
                 alt=""
               />
