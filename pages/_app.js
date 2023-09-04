@@ -1,5 +1,6 @@
 import "@fontsource-variable/cabin";
 import "../styles/globals.css";
+import Script from "next/script";
 
 import { MdFormatQuote } from "react-icons/md";
 import Link from "next/link";
@@ -8,6 +9,21 @@ import { Analytics } from "@vercel/analytics/react";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
       <div className="text-white sticky top-0 bg-black z-10 container mx-auto">
         <div className="px-2 lg:px-0 flex flex-row justify-between border-b-2 pb-3 border-zinc-800 pt-5">
           <Link href={"/"} className=" flex justify-between items-center">
