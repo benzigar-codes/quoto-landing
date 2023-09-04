@@ -24,7 +24,7 @@ export default function Terms() {
         <meta name="twitter:image" content={image} />
       </Head>
       <div className="flex justify-center">
-        <div className="max-w-[800px] mt-10 container mx-auto">
+        <div className="max-w-[800px] mt-10 container mx-auto px-3">
           <h1 className="text-4xl font-bold">Privacy Policy</h1>
           <>
             <p>
