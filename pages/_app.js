@@ -3,6 +3,7 @@ import "../styles/globals.css";
 
 import { MdFormatQuote } from "react-icons/md";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -35,6 +36,7 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
